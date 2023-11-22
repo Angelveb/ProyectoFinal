@@ -2,7 +2,14 @@
 
 ## Requisitos Previos
 
-Antes de comenzar, asegúrate de tener instalado Flutter y Dart en tu máquina. Puedes seguir las [instrucciones de instalación de Flutter](https://flutter.dev/docs/get-started/install) para hacerlo.
+Antes de comenzar, asegúrate de tener instalado Flutter y Dart en tu máquina. Para conectarlo a la base de datos puedes crear cualquier proyecto a tu cuenta de firebase, realizar los siguientes pasos
+
+1. Instalar firebase CLI
+2. firebase login
+3. dart pub global activate flutterfire_cli
+4. flutterfire configure
+
+Seleccionas el proyecto que creaste en firebase y lo demás se hace solo.
 
 ## Configuración del Proyecto
 
