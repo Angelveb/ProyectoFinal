@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:proyecto_v2/presentation/pages/assembly/views/assembly_list_page.dart';
 import 'package:proyecto_v2/presentation/pages/assembly/pie_chart.dart';
+import 'package:proyecto_v2/presentation/pages/assembly/views/assembly_page_detail.dart';
 import 'package:proyecto_v2/presentation/pages/assembly/views/download_page.dart';
 
 class QuestionsPage extends StatefulWidget {
@@ -19,25 +19,12 @@ class _QuestionsPageState extends State<QuestionsPage> {
   String preguntaActual = ' ';
 
   void verInfoAsamblea() {
-    // Implementa la lógica para obtener la información de la asamblea desde Firebase
-    // Puedes agregar aquí la lógica específica que necesitas.
-
-    // Por ahora, simplemente imprimo un mensaje en la consola.
-    print('Ver información de la asamblea');
 
     // Navega a la nueva pantalla con detalles de la asamblea
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => DetallesAsambleaInfoPage(
-          titulo:
-              'Título de la Asamblea', // Reemplaza con la lógica real para obtener los detalles de la asamblea
-          descripcion: 'Descripción de la Asamblea',
-          ordenDelEvento: const [
-            'Elemento 1',
-            'Elemento 2'
-          ], // Reemplaza con la lógica real para obtener los detalles de la asamblea
-        ),
+        builder: (context) => AssemblyDetailPage(),
       ),
     );
   }

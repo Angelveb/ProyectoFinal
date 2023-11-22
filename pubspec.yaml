@@ -141,6 +141,21 @@ flutter:
     - assets/club/gym/GYM2.jpg
     - assets/club/gym/GYM3.jpg
     - assets/club/gym/GYM4.jpg
+    - assets/club/coworking/CO.jpg
+    - assets/club/coworking/CO2.jpg
+    - assets/club/SA/aerobics.jpg
+    - assets/club/SalonEventos/EV.jpg
+    - assets/club/SalonEventos/EV2.jpg
+    - assets/club/SalonEventos/EV3.jpg
+    - assets/club/SalonEventos/EV4.jpg
+    - assets/club/SalonEventos/EV5.jpg
+    - assets/club/salonN2/AA.jpg
+    - assets/club/salonN2/AA2.jpg
+    - assets/club/salonN2/AA3.jpg
+    - assets/club/salonN2/AA4.jpg
+    - assets/club/Spinning/SP.jpg
+    - assets/club/terrazaBBQ/TE.jpg
+    - assets/club/terrazaBBQ/TE2.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

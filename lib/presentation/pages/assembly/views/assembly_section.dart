@@ -5,8 +5,8 @@ import 'package:proyecto_v2/presentation/pages/assembly/assembly_page.dart';
 import 'package:proyecto_v2/presentation/pages/assembly/views/assembly_page_admin.dart';
 import 'package:proyecto_v2/presentation/pages/assembly/views/question_page.dart';
 
-class AsambleasSection extends StatelessWidget {
-  AsambleasSection({super.key});
+class AssembliesSection extends StatelessWidget {
+  AssembliesSection({super.key});
 
   // Usuario
   final currentUser = FirebaseAuth.instance.currentUser!;

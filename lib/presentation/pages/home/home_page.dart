@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:proyecto_v2/componentes/drawer.dart';
 import 'package:proyecto_v2/presentation/pages/assembly/views/assembly_section.dart';
-import 'package:proyecto_v2/presentation/pages/wallet/dowload_page_movil.dart';
+import 'package:proyecto_v2/presentation/pages/files/dowload_page_movil.dart';
 import 'package:proyecto_v2/presentation/pages/club/club_page.dart';
 import 'package:proyecto_v2/presentation/pages/home/views/start_page.dart';
 import 'package:proyecto_v2/presentation/pages/home/views/uploader_page.dart';
@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage>
     Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (context) => AsambleasSection(),
+          builder: (context) => AssembliesSection(),
         ),
       );
   }

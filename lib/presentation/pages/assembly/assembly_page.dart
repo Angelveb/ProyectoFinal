@@ -152,7 +152,7 @@ class _AssemblyPageState extends State<AssemblyPage> {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => AsambleasSection(),
+        builder: (context) => AssembliesSection(),
       ),
     );
   }
