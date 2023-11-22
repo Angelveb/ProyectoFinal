@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:proyecto_v2/componentes/drawer.dart';
+import 'package:proyecto_v2/components/drawer.dart';
 import 'package:proyecto_v2/presentation/pages/assembly/views/assembly_section.dart';
 import 'package:proyecto_v2/presentation/pages/files/dowload_page_movil.dart';
 import 'package:proyecto_v2/presentation/pages/club/club_page.dart';

@@ -14,7 +14,7 @@ class AssemblyDetailPage extends StatelessWidget {
       body: StreamBuilder<DocumentSnapshot>(
         stream: FirebaseFirestore.instance
             .collection("asambleas")
-            .doc('c7YZHItZb5seMnZVxUAr')
+            .doc('djtG04Wh3OBigwlaOoto')
             .snapshots(),
         builder: (context, snapshot) {
           if (snapshot.hasData) {

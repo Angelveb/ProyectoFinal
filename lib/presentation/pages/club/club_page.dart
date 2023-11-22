@@ -3,7 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'package:proyecto_v2/componentes/club_box.dart';
+import 'package:proyecto_v2/components/club_box.dart';
 import 'package:proyecto_v2/presentation/pages/club/common_area_page.dart';
 import 'package:proyecto_v2/presentation/pages/club/uploader_page_club.dart';
 import 'package:proyecto_v2/presentation/providers/user_profile_provider.dart';

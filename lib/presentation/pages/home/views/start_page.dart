@@ -37,6 +37,9 @@ class _WelcomeScreenState extends State<WelcomeScreen>
     _animationController.dispose();
     super.dispose();
   }
+  void signOut() {
+    FirebaseAuth.instance.signOut();
+  }
 
   @override
   Widget build(BuildContext context) {

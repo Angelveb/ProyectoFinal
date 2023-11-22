@@ -1,10 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:proyecto_v2/componentes/comment_button.dart';
-import 'package:proyecto_v2/componentes/delete_button.dart';
-import 'package:proyecto_v2/componentes/like_button.dart';
-import 'package:proyecto_v2/componentes/comment.dart';
+import 'package:proyecto_v2/components/comment.dart';
+import 'package:proyecto_v2/components/comment_button.dart';
+import 'package:proyecto_v2/components/delete_button.dart';
+import 'package:proyecto_v2/components/like_button.dart';
 import 'package:proyecto_v2/helper/helper_methods.dart';
 
 class WallPost extends StatefulWidget {

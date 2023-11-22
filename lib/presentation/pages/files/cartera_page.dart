@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:proyecto_v2/componentes/slide.dart';
+import 'package:proyecto_v2/components/slide.dart';
 
 class WalletPage extends StatelessWidget {
   const WalletPage({super.key});

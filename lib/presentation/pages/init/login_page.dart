@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:proyecto_v2/componentes/custom_text_field.dart';
+import 'package:proyecto_v2/components/custom_text_field.dart';
 
 class LoginPage extends StatefulWidget {
   final Function()? onTap;

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:proyecto_v2/presentation/pages/assembly/views/models/archivo.dart';
-import 'package:proyecto_v2/presentation/pages/assembly/views/shared/app_constants.dart';
-import 'package:proyecto_v2/presentation/pages/assembly/views/shared/utils.dart';
+import 'package:proyecto_v2/presentation/pages/files/models/archivo.dart';
+import 'package:proyecto_v2/presentation/pages/files/shared/app_constants.dart';
+import 'package:proyecto_v2/presentation/pages/files/shared/utils.dart';
 
 class DownloadPage extends StatefulWidget {
   const DownloadPage({super.key});

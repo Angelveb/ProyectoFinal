@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:proyecto_v2/componentes/wall_post.dart';
+import 'package:proyecto_v2/components/wall_post.dart';
 import 'package:proyecto_v2/helper/helper_methods.dart';
 
 class SugerenciasPage extends StatefulWidget {

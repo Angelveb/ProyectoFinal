@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:awesome_dialog/awesome_dialog.dart';
-import 'package:proyecto_v2/componentes/image_slider.dart';
+import 'package:proyecto_v2/components/image_slider.dart';
 import 'package:proyecto_v2/presentation/pages/club/modal.dart';
 
 class CommonAreaPage extends StatelessWidget {

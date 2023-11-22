@@ -102,6 +102,8 @@ class _UploaderPage2State extends State<UploaderPage2> {
 
 
 
+
+
   Future<bool> showConfirmDialog(String imagePath) async {
   return await showDialog(
     context: context,
